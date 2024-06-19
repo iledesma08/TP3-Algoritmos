@@ -5,6 +5,7 @@ Este programa toma un archivo .txt, el cual solo puede contener 0, 1 y x's y que
 El objetivo del programa es identificar el recorrido más corto en linea recta que puede hacer un dron fumigador entre varias manchas de 3x3 de maleza, pasando por los parches una sola vez y empezando y terminando en las coordenadas 0,0 (esquina superior izquierda del txt), es decir, se busca identificar el ciclo hamiltoneano mas corto de todos los posibles entre los vertices de la matriz de adyacencia
 
 CANTIDADVERTICES = cantidad de manchas (se tiene que configurar segun lo que uno mismo vea en el txt). Se recomienda que no tenga mas de 10 manchas porque el algoritmo del ciclo hamiltoneano es complejo
+
 FILAS y COLUMNAS hacen referencia a la cantidad de filas y columnas que tiene el txt a analizar 
 El txt se encuentra en docs y se adjuntan archivos que pueden ser utiles para entender el codigo
 
